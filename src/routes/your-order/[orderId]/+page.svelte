@@ -15,7 +15,7 @@
     status = e.target.value;
 
     const response = await axios.post(
-      `http://localhost:4000/order/order-status`,
+      `https://server-1.vercel.app/order/order-status`,
       { id, status },
       {
         headers: {

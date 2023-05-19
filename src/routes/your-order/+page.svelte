@@ -10,7 +10,7 @@
   const token = Cookies.get("user_Token");
 
   export async function getOrders() {
-    const response = await axios.get("http://localhost:4000/order/your-order", {
+    const response = await axios.get("https://server-1.vercel.app/order/your-order", {
       headers: {
         Authorization: token,
       },

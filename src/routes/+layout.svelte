@@ -11,7 +11,7 @@
 
   async function getUser() {
     try {
-      const response = await axios.get("http://localhost:4000/auth/me", {
+      const response = await axios.get("https://server-1.vercel.app/auth/me", {
         headers: {
           Authorization: token
         }

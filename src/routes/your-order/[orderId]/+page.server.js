@@ -4,7 +4,7 @@ export async function load({ cookies, params }) {
   const token = cookies.get("user_Token");
 
   const orderResponse = await axios.get(
-    `http://localhost:4000/order/${params.orderId}`,
+    `https://server-1.vercel.app/order/${params.orderId}`,
     {
       headers: {
         Authorization: token,

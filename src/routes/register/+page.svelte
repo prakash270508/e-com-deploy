@@ -14,7 +14,7 @@
     console.log(data)
     try {
       const response = await axios.post(
-        "http://localhost:4000/auth/register",
+        "https://server-1.vercel.app/auth/register",
         data
       );
 

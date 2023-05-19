@@ -11,7 +11,7 @@
 
   const handleLogout = async () => {
     try {
-      const response = await axios.post("http://localhost:4000/auth/logout");
+      const response = await axios.post("https://server-1.vercel.app/auth/logout");
 
       Cookies.remove("user_Token");
 

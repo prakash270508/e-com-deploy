@@ -49,7 +49,7 @@
     try {
 
       const response = await axios.post(
-        "http://localhost:4000/order/place-order",
+        "https://server-1.vercel.app/order/place-order",
         data,
         {
           headers: {
