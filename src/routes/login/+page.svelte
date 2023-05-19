@@ -3,6 +3,7 @@
   import { userData } from "../../lib/auth";
   import Cookies from "js-cookie";
   import { goto } from "$app/navigation";
+  import { onMount } from "svelte";
 
   let password = "";
   let username = "";
@@ -36,6 +37,13 @@
       return alert(error.response.data.message);
     }
   }
+
+  onMount(()=>{
+    if($userData.isLoggedin){
+      goto('/')
+    }
+  })
+
 </script>
 
 <div class="container">

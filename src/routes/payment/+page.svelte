@@ -100,7 +100,7 @@
             class="form-control"
             id=""
             aria-describedby="emailHelp"
-            placeholder="First name"
+            placeholder="Your name"
           />
         </div>
         <div class="row">
@@ -168,7 +168,7 @@
               class="form-control"
               id=""
               aria-describedby="emailHelp"
-              placeholder="+375 (29)"
+              placeholder="+91 123456789"
             />
           </div>
         </div>
