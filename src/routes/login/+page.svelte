@@ -92,7 +92,7 @@
       <div class="d-flex">
         <a class=" my-5 links" href="/">Terms & Conditions</a>
         <a class="mx-5 my-5 links" href="/">Privacy Policy</a>
-        <a class=" my-5 links" href="/">Forgot password</a>
+        <a class=" my-5 links" href="forget-password">Forgot password</a>
       </div>
     </div>
     <div class="col-5">
